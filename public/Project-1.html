@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+       
+    .background{
+      background-image: url(../public/images/tree-2.jpg )  ;
+      margin-top:-250px;
+    }
+    .shade{
+      background-color:rgba(0, 0, 0, 0.6);
+      height: 120vh;
+    }
+    header{
+      position: sticky;
+      top: 0px;
+    }
+    .top{
+      padding-top: 200px;
+    }
+    header{
+            position:sticky;
+            top:0px;
+        }
+        .top{
+            padding-top: 200px;
+        }
+        nav{
+            background-color: rgba(0,0,0,0.2);
+            height:100px;
+            padding:20px;
+            position:sticky;
+            top:60px;
+        }
+        .nav-bar:hover{
+            text-decoration:underline;
+        }
+        .colorlib{
+            display:inline-block;
+            font-size: 40px;
+            color:white;
+            margin-left: 20px;
+        }
+        .travello{
+            display: inline-block;
+            background-color: black;
+            color:gray;
+            padding: 20px;
+            height:57px;
+            width:180px;
+            font-size: 20px;
+            text-align: center;
+            border-left: 1px solid gray;
+        }
+        button{
+            width:60px;
+            height:60px;
+          
+        }
+        .headline{
+            display:flex;
+            justify-content: space-around;
+            font-size: 80px;
+            font-weight: bold;
+            color:white;
+            margin-top:100px;
+        }
+        .highlight{
+            text-align: right;
+            margin-right: 180px;
+            color:lightgray;
+        }
+        .highlight:hover{
+            text-decoration: underline;
+        }
+       .booking{
+        padding:40px;
+        background-color: rgba(225,225,225,0.3);
+        height:40vh;
+        margin-left: 150px;
+        margin-right:150px;
+        margin-top: -50px;
+        border-radius: 15px;
+       } 
+       input{
+        border:none;
+        background-color: lightgray;
+        height:50px;
+        margin-top:25px;
+       }
+        
+    </style>
+</head>
+<body class="container-fluid">
+<header class="d-flex justify-content-between bg-drk" style="height:60px;">
+  <div>
+    <span  title="switcher" class="colorlib">Colorlib<span class="text-success">.</span>
+    <span title="select a product" class="travello">+TRAVELLO</span>
+  </div>
+  <div>
+    <span><button title="desktop view" class="bi bi-laptop fs-1 bg-dark text-secondary"></button></span>
+    <span><button title="tablet view" class="bi bi-tablet fs-1 bg-dark text-secondary"></button></span>
+    <span><button title="smartphone view" class="bi bi-phone fs-1 bg-dark text-secondary"></button></span>
+    <span><button title="buy now" class="bi bi-x fs-1 bg-dark text-secondary"></button></span>
+    <span><button title="close this bar" class="bi bi-laptop fs-1 bg-dark text-secondary"></button></span>
+   
+  </div>
+
+</header>
+<nav class="d-flex justify-content-around mt-5">
+  <div class="fw-bold fs-2 text-success">
+    Travello
+  </div>
+  <div class="text-white fs-5">
+    <span class="nav-bar me-4">Home</span>
+            <span class="nav-bar me-4">About Us</span>
+            <span class="nav-bar me-4">Services</span>
+            <span class="nav-bar me-4">News</span>
+            <span class="nav-bar">Contact</span>
+        </div>
+        <div class="fs-5 text-white">
+            Call us: 00-56 445 678 33
+        </div>
+  
+
+</nav>
+
+<section>
+  <div class="background">
+    <div class="shade">
+      <div class="top">
+        <div>
+          <span class="headline">Let us take you away</span>
+        </div>
+        <div>
+          <div class="highlight fs-5 mb-4">Offers 01</div>
+          <div  class="highlight fs-5 mb-4">Testimonials 02</div>
+          <div class="highlight fs-5 mb-4">Latest 03</div>
+      </div>
+      <div class="booking">
+          <div class=" d-flex align-items-center justify-content-center bg-light rounded rounded-3 p-2 fs-5 " style="height:60px; width:250px; margin-left:450px; margin-top:30px; margin-bottom:-5px">
+              Search for your trip
+          </div>
+          <form class="d-flex justify-content-center p-1 bg-light" style="height:100px">
+              <div>
+                  <input type="text" placeholder="city" class=" me-4 p-3">
+              </div>
+              <div>
+                  <input type="text" placeholder="Departure" class="me-4 p-3" size="12">
+              </div>
+              <div>
+                  <input type="text" placeholder="Arrival" class="me-4 p-3" size="12">
+              </div>
+              <div>
+                  <input type="text" placeholder="Budget" class="me-4 p-3">
+              </div>
+              <div>
+                  <button class="btn btn-dark " style="width:150px; margin-top:25px; height:50px">SEARCH</button>
+              </div>
+          </form
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

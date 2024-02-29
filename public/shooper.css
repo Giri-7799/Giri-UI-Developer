@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 20px;
+    
+    padding: 10px;
+    
+}
+.brand-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+nav span {
+    font-size: 20px;
+    display:inline-block;
+    padding-left: 20px;
+    
+    justify-content: space-around;
+    font-weight: bold;
+
+    
+}
+/* .buttons{
+    font-size: 2px;
+    
+
+} */
+article{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: black;
+    color:white;
+    padding: 15px;
+    
+}
+
+.bi-lightning-fill{
+    color:goldenrod;
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    
+    height: 400px;
+    margin-top: 10px;
+    grid-gap: 5px;
+}
+.women-fashion{
+    background-image: url(./images/s-1.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    /* font-size: 20px;
+    font-weight: bold; */
+    
+}
+.women-fashion:hover{
+   background-color:black; 
+   opacity: 0.7;
+}
+
+
+.men-fashion{
+    background-image: url(./images/s-5.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* font-size: 20px;
+    font-weight: bold;
+     */
+}
+.men-fashion:hover{
+    background-color:black; 
+    opacity: 0.8;
+ }
+
+
+.kids-fashion{
+    background-image: url(./images/s-4.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* font-size: 20px;
+    font-weight: bold;
+     */
+}
+.kids-fashion:hover{
+    background-color:black; 
+    opacity: 0.8;
+ }
+.king{
+    font-size: 25px;
+    font-weight: bold;
+    color:white
+}
+.queen{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    
+    padding: 5px;
+
+}
+.queen span{
+    display: inline-block;
+}
+.queen:hover span{
+transform: translateX(10px);
+}
+.nsd{
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+     
+}
+#truck{
+    color: red;
+    margin-right: 20px;
+    margin-left: -30px;
+    
+}   
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 20px;
+    display: flex;
+    /* margin-left: 330px; */
+    
+    text-align: center;
+}
+.grid{
+    display: grid;
+     grid-template-columns: 6fr 6fr; 
+     background-color:gainsboro;    
+} 
+.background{
+    height: 600px;
+    width: 600px;   
+} 
+.img{
+    background-image: url(../../../public/images/mahesh-4.jpeg); 
+    background-size:100%;
+    background-repeat: no-repeat;
+    width:76%;
+    margin-left: 120px;
+    height:100%;
+    border:1px solid gray;   
+    
+} 
+  .img:hover{
+    transform: translateX(2px); 
+}
+.img1{
+    background-image: url(../../../public/images/anu-2.jpeg); 
+    
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 76%;
+
+    
+    border: 1px solid gray;
+    
+    
+}
+ .img1:hover{
+    transform: translateX(2px);
+}
+
+
+ .men-1{
+     font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+    
+} 
+
+.men-2{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.men-2 span{
+    display: inline-block;
+}
+.men-2:hover span{
+    transform: translateX(5px);
+
+ 
+}
+.girl-1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+     margin-left: 20px;    
+}
+.girl-2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+    color:white;
+
+}
+.girl-2 span{
+    display: inline-block;
+}
+.girl-2:hover span{
+    transform: translateX(10px);
+} 
+ .jercy{
+   display: grid; 
+   grid-template-columns: 6fr 6fr;
+   margin-top: 30px;
+   background-color: gainsboro;
+  }
+.background1{
+    height: 600px;
+    width: 400px;
+}
+.sara-1{
+ background-image: url(../../../public/images/anu-1.jpeg);
+ padding-top: 10px;
+width: 120%;
+height: 79%;
+background-size: 100% ;
+background-repeat: no-repeat;
+ margin-left: 120px; 
+
+border: 0.5px solid gray;
+
+
+
+}
+.sara-1:hover {
+    transform: translateX(2px);
+}
+
+.nani-1{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    margin-top:200px;
+    margin-left: 20px;
+
+} 
+.nani-2{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nani-2 span{
+    display: inline-block;
+}
+.nani-2:hover span{
+    transform: translateX(10px);
+}
+.nani-2:hover{
+    transform: scaleX(4px);
+}
+.sara-2{
+    width: 120%;
+    height: 80%;
+    
+    background-image:url(../../../public/images/priya-2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:0.5px solid gray;
+}
+.sara-2:hover{
+    transform: translateX(2px);
+}
+.nani-3{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    margin-top:220px;
+    margin-left: 20px;
+} 
+.nani-4{
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.nani-4 span{
+    display: inline-block;
+}
+.nani-4:hover span{
+    transform: translateX(20px);
+}
+.roja span a{
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    color: chocolate;
+    margin-left: 15px;
+    padding-top: 10px;
+    
+
+}
+ .pics{ 
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+
+    height: 400px;
+    background-color:rgba(0,0,0,0.6)
+}
+.card-1,.card-2,.card-3,.card-4{
+    height: 320px;
+    width: 250px;
+    background-image: url(../../../public/images/puma-4.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px gray;
+
+
+}
+.card-2{
+background-image: url(/public/images/dress-3.jpeg);
+background-repeat: no-repeat;
+background-size: 100%;
+padding: 20px;
+}
+.card-2:hover{
+    background-image: url(/public/images/dress-4.jpeg);
+}
+
+.card-1:hover{
+    background-image: url(../../../public/images/puma-5.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-1:hover .icon{
+    transform: translateY(250px);
+    transition: 3s;
+}
+.card-3{
+    background-image: url(/public/images/dress.jpg);
+    
+    }
+    .card-3:hover{
+        background-image: url(/public/images/dress-1.jpg );
+        
+        
+    }
+    .card-3{
+        background-image: url(/public/images/men\ shooes\ a2.jpeg ) ;
+    }
+    .card-3:hover{
+        background-image: url(/public/images/f-1.jpeg);
+    }
+    .card-4{
+        background-image: url(/public/images/sara-1.jpeg);
+    }
+    .card-4:hover{
+        background-image: url(/public/images/women\ shooes\ a3.jpeg);
+    }
+    
+.icon span{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    background-color:white;
+    border : 1px solid gray;
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+ .icon span:hover{
+    background-color: red;
+    color:white;
+    transition: 5s;
+} 
+.icon{
+   transform: translateY(400px);
+}

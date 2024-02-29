@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+       ul{
+        list-style: none;
+        width: 150px;
+        border:1px solid gray;
+        height: 120px;
+        overflow: auto;
+       } 
+    .username{
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .username:focus{
+        outline: none;
+    }
+ul{
+    list-style: none;
+
+}
+li{
+    margin-bottom: 10px;
+
+}
+meter{
+    width:250px
+}
+meter+span{
+    color: gray;
+}
+.bi-star-fill{
+    color: green;
+}
+    
+    </style>
+</head>
+<body>
+<ul>
+    <li><input type="checkbox" name="course" value="java" checked><label for="java">java</label></li>
+    <li><input type="checkbox" name="course" value=".net" checked><label for=".net">.net</label></li>
+    <li><input type="checkbox" name="course" value="Devops" checked><label for="Devpos">Devpos</label></li>
+    <li><input type="checkbox" name="course" value="Python" checked><label for="Python">Python</label></li>
+    <li><input type="checkbox" name="course" value="software" checked><label for="software">Software</label></li>
+</ul>
+
+<form>
+    <input type="text" placeholder="user name" class="username">
+    <button>submit</button>
+</form><br><br>
+<form>
+<select name="product" size="5" multiple>
+    <option>Select a product</option>
+    <optgroup label="Electronics">
+<option>Mobiles</option>
+<option>watches</option>
+<option>Mobiles</option>
+<option>watches</option>
+<option>Mobiles</option>
+<option>watches</option>
+    </optgroup>
+    <optgroup label="Footware">
+<option>Boots</option>
+<option>Boots</option>
+<option>Boots</option>
+<option>Boots</option>
+<option>Boots</option>
+<option>Boots</option>
+
+    </optgroup>
+    
+</select>
+<button>submit</button>
+</form>
+<br><br>
+<form>
+    <fieldset>
+        <legend>Your comments</legend>
+        <textarea rows="4" cols="40"></textarea>
+        <br><br>
+        <textarea rows="4" cols="40" disabled>Terms of service</textarea>
+        <br><br>
+        <input type="checkbox"><label>Accept</label>
+        <br>
+        <button>Post Comments</button>
+    </fieldset>
+    
+</form>
+<h1>Meter</h1>
+
+<form>
+    <fieldset>
+        <legend>Ratings & Reviews</legend>
+        <ul>
+            <li>
+                5<span class="bi bi-star-fill"></span>
+                <meter min="1" max="5" value="5"></meter><span>23000</span>
+                
+            </li>
+            <li>
+                4<span class="bi bi-star-fill"></span>
+                <meter min="1" max="5" value="3"></meter>
+                <span>3,500</span>
+            </li>
+            <li>
+                3<span class="bi bi-star-fill"></span>
+                <meter min="1" max="5" value="2"></meter>
+                <span>2000</span>
+            </li>
+            <li>
+                2<span class="bi bi-star-fill"></span>
+                <meter min="1" max="5" value="5"></meter>
+                <span>1000</span>
+            </li>
+           
+        </ul>
+    </fieldset>
+</form>
+
+</body>
+</html>
